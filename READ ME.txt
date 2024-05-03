@@ -6,6 +6,6 @@ Notes:
  
 * Instead of multiplying probabilities outright, they are instead added logarithmically to prevent floating point values from quicly converging to 0.
 * Added a smoothing factor k, to avoid an influx of Type 2 errors (an email is not marked as spam even if it should be)
-* This is a basic filter, only the subject lines of the email are evaluated for potential spam. 
+* This is a basic filter, only the subject lines of the email are taken into consideration when making a spam determination.
 
 
